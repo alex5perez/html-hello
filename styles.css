@@ -1,0 +1,66 @@
+body{
+    background: black;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+	margin: 60px auto;
+    background: white;
+}
+
+.post-header{
+    display: flex;
+    align-items: center;
+	justify-content: space-between;
+    width: 100%;
+}
+
+.header-left{
+    display: inline-flex;
+}
+
+.icono-html{
+    margin: 7%;
+    font-size: 30px;
+}
+
+.text-rigo{
+    margin: auto;
+    padding: auto;
+}
+
+.puntos{
+    margin: 3%;
+    font-size: 30px;
+}
+
+.post-img img{
+    width: 100%;
+	height: 100%;
+}
+
+.post-icons{
+    justify-content: space-between;
+    display: flex;
+}
+
+.i-left{
+    font-size: 30px;
+    display: flex;
+}
+
+.fa-regular{
+    padding-right: 10%;
+}
+
+.fa-bookmark{
+    font-size: 30px;
+}
+
+.post-body{
+    padding: 3%;
+}
